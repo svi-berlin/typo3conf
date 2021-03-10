@@ -1,5 +1,5 @@
 @import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
-@import 'EXT:site_package/Configuration/TypoScript/Helper/DynamicContent.typoscript'
+@import 'EXT:site_yangon/Configuration/TypoScript/Helper/DynamicContent.typoscript'
 
 
 page = PAGE
@@ -14,22 +14,32 @@ page {
        templateName.stdWrap.cObject {
           key.data = pagelayout
 
-          pagets__site_package_default = TEXT
-          pagets__site_package_default.value = Default
+
+
+
 
           default = TEXT
-          default.value = Default
+          default.value = default
+
+          pagets__2 = TEXT
+          pagets__2.value = <body id="uid|" class="fullpage">
+
+          pagets__site_yangon = TEXT
+          pagets__site_yangon.value = <body id="uid|" class="yangon">
+
+
+
        }
        templateRootPaths {
-          0 = EXT:site_package/Resources/Private/Templates/Page/
+          0 = EXT:site_yangon/Resources/Private/Templates/Page/
           1 = {$page.fluidtemplate.templateRootPath}
        }
        partialRootPaths {
-          0 = EXT:site_package/Resources/Private/Partials/Page/
+          0 = EXT:site_yangon/Resources/Private/Partials/Page/
           1 = {$page.fluidtemplate.partialRootPath}
        }
        layoutRootPaths {
-          0 = EXT:site_package/Resources/Private/Layouts/Page/
+          0 = EXT:site_yangon/Resources/Private/Layouts/Page/
           1 = {$page.fluidtemplate.layoutRootPath}
        }
        dataProcessing {

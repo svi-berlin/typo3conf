@@ -1,7 +1,7 @@
 <?php
 return [
     'BE' => [
-        'debug' => false,
+        'debug' => true,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$WlZzT0tYOE9CcXpBaThsWA$D2fq/qFf2GzzH4w3CGqQZhlYNkCo3PLG7W1BNhVZBzE',
         'loginSecurityLevel' => 'normal',
@@ -48,7 +48,7 @@ return [
         ],
     ],
     'FE' => [
-        'debug' => false,
+        'debug' => true,
         'loginSecurityLevel' => 'normal',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
@@ -71,7 +71,7 @@ return [
                     'writerConfiguration' => [
                         5 => [
                             'TYPO3\CMS\Core\Log\Writer\FileWriter' => [
-                                'disabled' => true,
+                                'disabled' => false,
                             ],
                         ],
                     ],
@@ -88,16 +88,16 @@ return [
         'transport_smtp_username' => '',
     ],
     'SYS' => [
-        'devIPmask' => '',
-        'displayErrors' => 0,
+        'devIPmask' => '*',
+        'displayErrors' => 1,
         'encryptionKey' => '2268521f6d6bb8b7cd6719b550e5e45c22b72c39ad12080e0e93fabd850cf35037c2f38b5a7f8a19a66296b9ea4134c1',
-        'exceptionalErrors' => 4096,
+        'exceptionalErrors' => 12290,
         'features' => [
             'newTranslationServer' => true,
             'unifiedPageTranslationHandling' => true,
         ],
         'sitename' => 'Yangon',
-        'systemLogLevel' => 2,
+        'systemLogLevel' => 0,
         'systemMaintainers' => [
             1,
         ],
