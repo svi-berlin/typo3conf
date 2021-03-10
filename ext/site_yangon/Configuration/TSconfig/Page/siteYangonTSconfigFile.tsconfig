@@ -1,0 +1,26 @@
+mod.web_layout.BackendLayouts {
+    siteYangon {
+        title = Yangon 2 Columns
+        icon = EXT:site_yangon/Resources/Public/Images/BackendLayouts/default.gif
+        config {
+            backend_layout {
+                colCount = 2
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = left
+                                colPos = 1
+                            }
+                            2 {
+                                name = right
+                                colPos = 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
