@@ -95,6 +95,9 @@ return [
         'site_yangon' => [
             'packagePath' => 'typo3conf/ext/site_yangon/',
         ],
+        'tt_news' => [
+            'packagePath' => 'typo3conf/ext/tt_news/',
+        ],
     ],
     'version' => 5,
 ];

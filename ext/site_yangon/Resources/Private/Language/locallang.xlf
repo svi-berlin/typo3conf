@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-03-09T18:44:59Z" product-name="site_yangon">
+		<header/>
+		<body>
+			<trans-unit id="site_yangon_newcontentelement_title" xml:space="preserve">
+				<source>Beispiel Titel</source>
+			</trans-unit>
+            <trans-unit id="site_yangon_newcontentelement_description" xml:space="preserve">
+                <source>Beispiel Beschreibung</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

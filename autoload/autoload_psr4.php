@@ -5,4 +5,5 @@
 $typo3InstallDir = \TYPO3\CMS\Core\Core\Environment::getPublicPath() . '/';
 
 return array(
+    'RG\\TtNews\\' => array($typo3InstallDir . 'typo3conf/ext/tt_news/Classes'),
 );

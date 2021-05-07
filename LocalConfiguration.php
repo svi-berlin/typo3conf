@@ -31,7 +31,7 @@ return [
         'extConf' => [
             'backend' => 'a:6:{s:14:"backendFavicon";s:0:"";s:11:"backendLogo";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:19:"loginHighlightColor";s:0:"";s:9:"loginLogo";s:0:"";}',
             'extensionmanager' => 'a:2:{s:21:"automaticInstallation";s:1:"1";s:11:"offlineMode";s:1:"0";}',
-            'phpmyadmin' => 'a:4:{s:12:"hideOtherDBs";s:1:"1";s:9:"uploadDir";s:21:"uploads/tx_phpmyadmin";s:10:"allowedIps";s:0:"";s:12:"useDevIpMask";s:1:"0";}',
+            'tt_news' => 'a:10:{s:17:"requireCategories";s:1:"0";s:17:"showBackEndModule";s:1:"0";s:13:"prependAtCopy";s:1:"1";s:5:"label";s:5:"title";s:9:"label_alt";s:0:"";s:10:"label_alt2";s:0:"";s:15:"label_alt_force";s:1:"0";s:25:"l10n_mode_prefixLangTitle";s:1:"1";s:22:"l10n_mode_imageExclude";s:1:"1";s:20:"hideNewLocalizations";s:1:"0";}',
         ],
     ],
     'EXTENSIONS' => [
@@ -47,11 +47,17 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
-        'phpmyadmin' => [
-            'allowedIps' => '',
-            'hideOtherDBs' => '1',
-            'uploadDir' => 'uploads/tx_phpmyadmin',
-            'useDevIpMask' => '0',
+        'tt_news' => [
+            'hideNewLocalizations' => '0',
+            'l10n_mode_imageExclude' => '1',
+            'l10n_mode_prefixLangTitle' => '1',
+            'label' => 'title',
+            'label_alt' => '',
+            'label_alt2' => '',
+            'label_alt_force' => '0',
+            'prependAtCopy' => '1',
+            'requireCategories' => '0',
+            'showBackEndModule' => '0',
         ],
     ],
     'FE' => [

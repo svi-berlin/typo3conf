@@ -14,10 +14,6 @@ page {
        templateName.stdWrap.cObject {
           key.data = pagelayout
 
-
-
-
-
           default = TEXT
           default.value = default
 
@@ -97,4 +93,16 @@ config {
    compressJs = 0
    concatenateCss = 0
    concatenateJs = 0
+}
+
+
+lib.contentElement {
+    templateRootPaths.200 = EXT:site_yangon/Resources/Private/Templates/
+}
+
+tt_content {
+    site_yangon_newcontentelement =< lib.contentElement
+    site_yangon_newcontentelement {
+        templateName = NewContentElement
+    }
 }

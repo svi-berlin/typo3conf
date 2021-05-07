@@ -1,0 +1,18 @@
+base: /
+baseVariants: {  }
+errorHandling: {  }
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    base: /
+    typo3Language: default
+    locale: de_DE
+    iso-639-1: de
+    navigationTitle: Deutsch
+    hreflang: de-DE
+    direction: ltr
+    flag: de
+    languageId: '0'
+rootPageId: 1
+routes: {  }

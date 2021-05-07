@@ -1,0 +1,34 @@
+{
+  "name": "rupertgermann/tt_news",
+  "type": "typo3-cms-extension",
+  "description": "Website news with front page teasers and article handling inside.",
+  "homepage": "https://typo3.org/extensions/repository/view/tt_news",
+  "keywords": [
+    "TYPO3",
+    "news",
+    "extension"
+  ],
+  "version": "10.0.0",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Rupert Germann",
+      "email": "rg@pick2.de",
+      "homepage": "https://pick2-webservices.de",
+      "role": "Lead"
+    },
+    {
+      "name": "Jakob Berlin",
+      "email": "jakob@ybals.de",
+      "role": "Member"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": ">=9.5.0 <11.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RG\\TtNews\\": "Classes/"
+    }
+  }
+}
